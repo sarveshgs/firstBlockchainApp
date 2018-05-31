@@ -38,3 +38,17 @@ Repo Setup :
 6. Run tests: 
                 
                  truffle test
+                 
+7. Install dependencies 
+
+                npm install
+
+8. Unlock ganache-cli Account:
+
+                truffle console 
+                web3.personal.unlockAccount(firstAccountAdress,firstPrivateKey,15000)    
+                
+                
+9. Run interaction layer: 
+
+                node interaction/interaction.js                                            
