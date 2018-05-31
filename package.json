@@ -1,0 +1,25 @@
+{
+  "name": "firstblockchainapp",
+  "version": "1.0.0",
+  "description": "This is simple blockchain application to demonstrate usage of smart contract and truffle framework for blockchain development",
+  "main": "truffle-config.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sarveshgs/firstBlockchainApp.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sarveshgs/firstBlockchainApp/issues"
+  },
+  "homepage": "https://github.com/sarveshgs/firstBlockchainApp#readme",
+  "dependencies": {
+    "web3": "^1.0.0-beta.34"
+  }
+}
